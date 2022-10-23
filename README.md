@@ -19,6 +19,7 @@ and white as default
 
 
 Eg: ./program -c red
+
 Given the above arguments, the program should print the QR code in red and white.
 These colors should be supported by the program - black, red, green, yellow, blue,
 magenta, cyan
