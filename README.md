@@ -12,6 +12,17 @@ Inputs:
 ● You should get the URL as a user input through STDIN (this string should be greater
 than 3 characters and less than 120 characters)
 
-Command-line arguments: argument to the program with the ‘-c’ flag, the program should
+## Command-line arguments: 
+●If a colour is given as an argument to the program with the ‘-c’ flag, the program should
 be able to print the QR code using the given colour. If no argument is given use black
 and white as default
+
+
+Eg: ./program -c red
+Given the above arguments, the program should print the QR code in red and white.
+These colors should be supported by the program - black, red, green, yellow, blue,
+magenta, cyan
+
+
+● If -h flag is given or the given arguments are invalid, you should print the usages of your
+program
